@@ -20,6 +20,7 @@ class Main():
 
     def testing(self):
         self.importer.importOptionPriceData()
+        self.calculator.calculateImpliedPrices()
 
 if __name__ == "__main__":
     main = Main()
